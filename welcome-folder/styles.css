@@ -56,6 +56,40 @@ body{
     background-color: rgba(100, 149, 180, 0.8); 
     opacity: 0.8;
 }
+
+
+/* main */
 .bundles {
     color: var(--hulu-green);
+}
+
+.subtext {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+}
+
+.bundle-btn {
+    background-color: var(--hulu-green);
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.bundle-btn:hover {
+    background-color: rgba(109, 228, 141, 0.8);
+}
+
+.terms {
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: underline;
+}
+.terms:hover {
+    color: white;
 }
