@@ -1,0 +1,55 @@
+body{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../images/welcome-bgc2.png");
+    background-size: cover;
+    height: 80vh;
+
+}
+.small-text {
+    font-size: 0.8rem;
+}
+.navbar-brand img {
+    width: 150px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+  
+.hero-gradient {
+    position: relative;
+    padding: 20px;
+}
+
+.hero-gradient > * {
+    position: relative; /* Ensure the text is above the overlay */
+    z-index: 2;
+}
+
+.nav-link {
+    color: inherit; /* Inherits the color from its parent element */
+    text-decoration: none; /* Removes the underline */
+}
+
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgba(211, 211, 211);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button:hover {
+    color: white;
+    background-color: rgba(100, 149, 180, 0.8); 
+    opacity: 0.8;
+}
+
+.no-bg {
+    background-color: transparent !important;
+}
+  
