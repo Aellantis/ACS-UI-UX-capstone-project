@@ -1,3 +1,8 @@
+:root {
+    --hulu-green: rgb(109, 228, 141);
+}
+
+
 body{
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
@@ -13,6 +18,9 @@ body{
 }
 .small-text {
     font-size: 0.8rem;
+}
+.smaller-text {
+    font-size: 0.6rem;
 }
 .navbar-brand img {
     width: 150px; /* Set your desired width */
@@ -48,8 +56,6 @@ body{
     background-color: rgba(100, 149, 180, 0.8); 
     opacity: 0.8;
 }
-
-.no-bg {
-    background-color: transparent !important;
+.bundles {
+    color: var(--hulu-green);
 }
-  
