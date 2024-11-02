@@ -13,6 +13,25 @@ body{
     box-sizing: border-box;
 }
 
+.responsive-section {
+    transition: height 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+  }
+
+  @media (max-width: 768px) {
+    .responsive-section > *{
+      max-width: 100px;
+      overflow: hidden;
+    }
+  }
+
+  
+  @media (min-width: 769px) {
+    .responsive-section {
+        height: auto;
+        opacity: 1;
+    }
+}
+
 .hero {
     background-image: url("../images/welcome-bgc2.png");
     background-size: cover;
@@ -29,6 +48,16 @@ body{
 .smaller-text {
     font-size: 0.6rem;
 }
+
+.big-text {
+    font-size: 3rem;
+}
+
+.bigger-text {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
 .navbar-brand img {
     width: 150px; /* Set your desired width */
     height: auto; /* Maintain aspect ratio */
@@ -137,4 +166,68 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 24px;
+}
+
+/* Beneath the Fold */
+
+.bulu-tv {
+    background-color: rgb(12, 15, 18);
+    height: 200vh;
+    text-align: center;
+}
+
+.bulu-cards {
+    height: 100vh;
+}
+
+.bulu-tv h6 {
+    color: var(--hulu-green);
+    padding: 20px;
+}
+
+.bulu-tv h1 {
+    color: white;
+    padding: 20px;
+}
+
+.bulu-tv h5 {
+    color: white;
+    padding: 20px;
+}
+
+.rounded-boarder {
+    border-radius: 15px;
+}
+
+.cards h6 {
+    font-size: 9px;
+    color:grey;
+    margin-top: -180px;
+}
+
+.bulu-tv-subtext {
+    margin-top: -200px;
+}
+.bulu-tv-subtext h6 {
+    color: var(--hulu-green)
+}
+
+.bulu-tv-subtext h2 {
+    color: white;
+}
+
+.bulu-tv-subtext h6 {
+    color: white;
+}
+
+.bulu-tv-terms {
+    color: grey;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.bulu-tv-terms a {
+    color: grey;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
