@@ -17,83 +17,221 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <!-- Hero Section -->
+    <div class="hero">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container">
+            <img
+              src="../images/bulu.png"
+              alt="Brand"
+              style="width: 200px"
+              class="col-md-1"
+            />
+            <div class="collapse navbar-collapse">
+              <div class="whitespace col-md-10 d-none d-md-block"></div>
+              <a
+                class="nav-link col-md-1 login-button small-text d-none d-md-block"
+                href="#"
+                >LOG IN</a
+              >
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <div class="container whitespace">
+          <div class="row" style="height: 20vh">
+            <div class="col-md-12">
+              <h1 class="text-center"></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="sales container row offset-md-1 responsive-section">
+          <div class="col-md-2"></div>
+          <section
+            class="col-md-10 bundles row d-flex flex-wrap align-items-center"
+          >
+            <section class="col-md-6">
+              <div class="title small-text d-flex justify-content-center">
+                BISNEY BUNDLE TRIO BASIC
+              </div>
+              <div class="company-logos row mt-3 centered">
+                <img
+                  src="../images/bisney.png"
+                  alt="Disney"
+                  class="col-md-4"
+                  style="max-width: 100px"
+                />
+                <img
+                  src="../images/bulu.png"
+                  alt="Hulu"
+                  class="col-md-4"
+                  style="max-width: 100px"
+                />
+                <img
+                  src="../images/bspn.png"
+                  alt="ESPN"
+                  class="col-md-4"
+                  style="max-width: 100px"
+                />
+              </div>
+              <div class="subtext mt-3">
+                <h2>All with ads, for $16.99/month.</h2>
+              </div>
+              <button class="btn bundle-btn w-100">GET ALL THREE</button>
+              <a href="#" class="terms offset-md-5">Terms apply</a>
+            </section>
+
+            <section class="col-md-6">
+              <div class="title small-text d-flex justify-content-center">
+                BISNEY+, BULU, BAX
+              </div>
+              <div class="company-logos row mt-3 centered">
+                <img
+                  src="../images/bisney.png"
+                  alt="Disney"
+                  class="col-md-4"
+                  style="max-width: 100px"
+                />
+                <img
+                  src="../images/bulu.png"
+                  alt="Hulu"
+                  class="col-md-4"
+                  style="max-width: 100px"
+                />
+                <img
+                  src="../images/bax.png"
+                  alt="Hulu"
+                  class="col-md-4"
+                  style="max-width: 100px"
+                />
+              </div>
+              <div class="subtext mt-3">
+                <h2>Plans starting at $16.99/month.</h2>
+              </div>
+              <button class="btn bundle-btn w-100">LEARN MORE</button>
+              <a href="#" class="terms offset-md-5">Terms apply</a>
+            </section>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <section class="banner-ad">
+      <div class="banner1">
+        <div class="container col-md-2">
+          <div class="row">
+            <img src="../images/bulu.png" alt="bulu" style="height: 50px" />
+            <img src="../images/bisney.png" alt="bisney" style="height: 50px" />
+          </div>
+        </div>
+        <div class="container col-md-6">
+          <h6 class="bundles">BISNEY BUNDLE DUO BASIC</h6>
+          <h2 class="text=white">Both with ads, for $10.99/month</h2>
+        </div>
+
+        <div class="container col-md-3">
+          <button class="btn bundle-btn w-100">GET ALL THREE</button>
+          <a href="#" class="terms centered">Terms apply</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner-ad">
+      <div class="banner2">
+        <div class="container centered col-md-4 row">
+          <h5>BUILD THE PLAN THAT'S RIGHT FOR YOU</h5>
+          <button class="btn build-btn" style="width: 60%">
+            START BUILDING
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneath the Fold -->
+    <section class="bulu-tv">
+      <section class="title">
         <div class="container">
-          <img
-            src="../images/bulu.png"
-            alt="Brand"
-            style="width: 200px"
-            class="col-md-1"
-          />
-          <div class="collapse navbar-collapse">
-            <div class="whitespace col-md-10 d-none d-md-block"></div>
-            <a
-              class="nav-link col-md-1 login-button small-text d-none d-md-block"
-              href="#"
-              >LOG IN</a
-            >
+          <div class="row">
+            <div class="col-md-12 mt-5">
+              <h6 class="mt-5">INCLUDED IN ALL PLANS</h6>
+              <h1 class="bigger-text">All The TV You Love</h1>
+              <h5>
+                Watch full seasons of exclusive streaming series, current-season
+                episodes, hit movies, Hulu Originals, kids shows, and more.
+              </h5>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
+      </section>
 
-    <main>
-      <div class="container whitespace">
-        <div class="row" style="height: 20vh">
-          <div class="col-md-12">
-            <h1 class="text-center"></h1>
+      <!-- must change bg image soon -->
+      <section class="cards">
+        <div class="container">
+          <div class="row bulu-cards">
+            <div class="card w-25 h-50 rounded-boarder p-3">
+              <h4>Cats1</h4>
+              <img src="" alt="tbd" />
+            </div>
+            <div class="card w-25 h-50 rounded-boarder p-3">
+              <h4>Cats2</h4>
+              <img src="" alt="tbd" />
+            </div>
+            <div class="card w-25 h-50 rounded-boarder p-3">
+              <h4>Cats3</h4>
+              <img src="" alt="tbd" />
+            </div>
+            <div class="card w-25 h-50 rounded-boarder p-3">
+              <h4>Cats4</h4>
+              <img src="" alt="tbd" />
+            </div>
+            <h6 class="offset-md-9">
+              Premium network add-ons available for an additional cost
+            </h6>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="sales container row offset-md-1">
-        <div class="col-md-2"></div>
-        <section
-          class="col-md-10 bundles row d-flex flex-wrap align-items-center"
-        >
-          <section class="col-md-6 small-text">
-            <div class="title small-text d-flex justify-content-center">
-              BISNEY BUNDLE TRIO BASIC
-            </div>
-            <div class="company-logos row mt-3">
-              <img src="../images/bisney.png" alt="Disney" class="col-md-4" />
-              <img src="../images/bulu.png" alt="Hulu" class="col-md-4" />
-              <img src="../images/bspn.png" alt="ESPN" class="col-md-4" />
-            </div>
-            <div class="subtext mt-3">
-              <h2>All with ads, for $16.99/month.</h2>
-            </div>
-            <button class="btn bundle-btn w-100">GET ALL THREE</button>
-            <a href="#" class="terms offset-md-5">Terms apply</a>
-          </section>
-
-          <section class="col-md-6 small-text">
-            <div class="title small-text d-flex justify-content-center">
-              BISNEY+, BULU, BAX
-            </div>
-            <div class="company-logos row mt-3">
-              <img src="../images/bisney.png" alt="Disney" class="col-md-4" />
-              <img src="../images/bulu.png" alt="Hulu" class="col-md-4" />
-              <img src="../images/bax.png" alt="Hulu" class="col-md-4" />
-            </div>
-            <div class="subtext mt-3">
-              <h2>Plans starting at $16.99/month.</h2>
-            </div>
-            <button class="btn bundle-btn w-100">LEARN MORE</button>
-            <a href="#" class="terms offset-md-5">Terms apply</a>
-          </section>
-        </section>
-        <div class="col-md-2"></div>
-      </div>
-
-      <div class="container whitespace">
-        <div class="row" style="height: 20vh">
-          <div class="col-md-12">
-            <h1 class="text-center"></h1>
+      <section class="bulu-tv-subtext">
+        <div class="container col-md-6">
+          <h6>TRY BULU (WITH ADS) + LIVE TV</h6>
+          <h2 class="bigger-text">$59.99/MO. FOR 3 MONTHS</h2>
+          <h6>
+            Regular price $82.99/mo. Get 95+ top channels on Hulu (With Ads) +
+            Live TV with your favorite live sports, news, and events - plus the
+            entire Hulu streaming library. With Unlimited DVR, store Live TV
+            recordings for up to nine months and fast-forward through your DVR
+            content. Includes access to endless entertainment with Disney+ and
+            live sports with ESPN+.
+          </h6>
+          <button class="btn bundle-btn w-25">GET THIS DEAL</button>
+          <div class="bulu-tv-terms">
+            Offer for Hulu (With Ads) + Live TV plan only: $59.99/month for 3
+            months, then auto-renews at $82.99/month or then-current regular
+            monthly price. Ends 12:00 PM PT on 11/19/24. Cancel anytime,
+            effective at the end of your billing period. No refunds or credits
+            for partial months. New and eligible returning subscribers (who have
+            not been Hulu subscribers in the past 1 month) only, 18+ only;
+            select third party billed subscribers and current Disney+ and/or
+            ESPN+ subscribers are not eligible. Access content from each service
+            separately. Regional restrictions, blackouts and additional terms
+            apply. © 2024 Disney and its related entities. Additional terms
+            apply. Not combinable with any free trial of the Hulu (With Ads) +
+            Live TV plan or any other promotional offers or pricing; not
+            redeemable via gift card. Any plan switch after redemption of this
+            offer will result in forfeiture of the Hulu + Live TV discount
+            pricing. Location data required to watch certain content.
+            <span><a href="#">Additional details.</a></span>
           </div>
         </div>
-      </div>
-    </main>
+      </section>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
