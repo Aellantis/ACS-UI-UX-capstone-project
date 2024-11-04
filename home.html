@@ -1,443 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="home.css" />
-  </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="home.css">
 
-  <body>
-    <!-- Navbar -->
+</head>
 
-    <div class="millionaire-container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+<body>
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          <img src="images/logo.png" width="90" height="35" alt="" />
+            <img src="images/logo.png" width="90" height="35" alt="">
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto align-items-center">
-            <li class="nav-item active ml-5">
-              <a class="nav-link home-nav" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item ml-4">
-              <a class="nav-link nav-grey" href="#">TV</a>
-            </li>
-            <li class="nav-item ml-4">
-              <a class="nav-link nav-grey" href="#">Movies</a>
-            </li>
-            <li class="nav-item ml-4">
-              <a class="nav-link nav-grey" href="#">News</a>
-            </li>
-            <li class="nav-item ml-4">
-              <a class="nav-link nav-grey" href="#">My Stuff</a>
-            </li>
-            <li class="nav-item ml-4">
-              <a class="nav-link nav-grey" href="#">Hubs</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ml-auto align-items-center">
-            <li class="nav-item align-self-center">
-              <button class="search-btn btn bg-transparent">
-                <i class="bi bi-search"></i>
-              </button>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <img src="images/user.png" width="60" height="40" alt="" />
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-right dropdown-menu-color"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Manage Profiles</a>
-                <a class="dropdown-item" href="#">Account</a>
-                <a class="dropdown-item" href="#">Help Center</a>
-                <a class="dropdown-item" href="#">Log Out</a>
-              </div>
-            </li>
-          </ul>
+            <ul class="navbar-nav ml-auto align-items-center">
+                <li class="nav-item active ml-5">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ml-4">
+                    <a class="nav-link" href="#">TV</a>
+                </li>
+                <li class="nav-item ml-4">
+                    <a class="nav-link" href="#">Movies</a>
+                </li>
+                <li class="nav-item ml-4">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item ml-4">
+                    <a class="nav-link" href="#">My Stuff</a>
+                </li>
+                <li class="nav-item ml-4">
+                    <a class="nav-link" href="#">Hubs</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto align-items-center">
+                <li class="nav-item align-self-center">
+                    <button class="btn">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="images/user.png" width="60" height="40" alt="">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Manage Profiles</a>
+                        <a class="dropdown-item" href="#">Account</a>
+                        <a class="dropdown-item" href="#">Help Center</a>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-      </nav>
-      <!-- HERO -->
-      <div class="">
-        <!-- Overlay GIF on top of the main background image -->
-        <div class="overlay-image"></div>
+    </nav>
+<!-- HERO -->
+<div class="millionaire-container">
+    <!-- Overlay GIF on top of the main background image -->
+    <div class="overlay-image"></div>
 
-        <!-- Content overlay with text and buttons -->
-        <div class="content-overlay">
-          <p class="text-uppercase">Hosted by Banana Cat</p>
-          <h1>Who Wants to Be a Meowllionaire</h1>
-          <p>S3 E8 - Fight for the Tuna: Sad Cat and..</p>
-          <p class="mb-4">
-            In celebration of the 20th anniversary of "Who Wants to Be a
-            Meowllionaire," where feline contestants play for treats and
-            catnip...
-          </p>
-          <div>
+    <!-- Content overlay with text and buttons -->
+    <div class="content-overlay">
+        <p class="text-uppercase">Hosted by Banana Cat</p>
+        <h1>Who Wants to Be a Meowllionaire</h1>
+        <p>S3 E8 - Fight for the Tuna: Sad Cat and..</p>
+        <p class="mb-4">In celebration of the 20th anniversary of "Who Wants to Be a Meowllionaire," where feline contestants play for treats and catnip...</p>
+        <div>
             <button class="btn btn-custom">Play</button>
             <button class="btn btn-outline-light">Details</button>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<div class="media-container">
+    <!-- TV Section -->
+    <div class="media-section">
+        <h4 class="media-section-title">TV for You <a href="#" class="text-secondary">MORE TV ></a></h4>
+        <div id="tvCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Love Island">
+                                <div class="card-body">
+                                    <p class="category-label">For Drama Fans</p>
+                                    <h5 class="card-title">Love Island</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Project Runway">
+                                <div class="card-body">
+                                    <p class="category-label">For Fashion Fans</p>
+                                    <h5 class="card-title">Project Runway All Stars</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Stranger Things">
+                                <div class="card-body">
+                                    <p class="category-label">For Sci-Fi Fans</p>
+                                    <h5 class="card-title">Stranger Things</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="The Crown">
+                                <div class="card-body">
+                                    <p class="category-label">For History Buffs</p>
+                                    <h5 class="card-title">The Crown</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Breaking Bad">
+                                <div class="card-body">
+                                    <p class="category-label">For Thriller Fans</p>
+                                    <h5 class="card-title">Breaking Bad</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Another TV Show">
+                                <div class="card-body">
+                                    <p class="category-label">For Comedy Lovers</p>
+                                    <h5 class="card-title">Another TV Show</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Yet Another Show">
+                                <div class="card-body">
+                                    <p class="category-label">For Mystery Fans</p>
+                                    <h5 class="card-title">Yet Another Show</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="A Great Show">
+                                <div class="card-body">
+                                    <p class="category-label">For Drama Enthusiasts</p>
+                                    <h5 class="card-title">A Great Show</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#tvCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#tvCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
 
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-          crossorigin="anonymous"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-        />
-        <link rel="stylesheet" href="home.css" />
-      </head>
-      <body>
-        <div class="media-container">
-          <!-- TV Section -->
-          <div class="media-section">
-            <h4 class="media-section-title">
-              TV for You <a href="#" class="text-secondary">MORE TV ></a>
-            </h4>
-            <div id="tvCarousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
+    <!-- Movies Section -->
+    <div class="media-section mt-4">
+        <h4 class="media-section-title">Movies for You <a href="#" class="text-secondary">MORE MOVIES ></a></h4>
+        <div id="moviesCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Love Island"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Drama Fans</p>
-                          <h5 class="card-title">Love Island</h5>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="The Bob's Burgers Movie">
+                                <div class="card-body">
+                                    <p class="category-label">For Comedy Fans</p>
+                                    <h5 class="card-title">The Bob's Burgers Movie</h5>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Project Runway"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Fashion Fans</p>
-                          <h5 class="card-title">Project Runway All Stars</h5>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Little Women">
+                                <div class="card-body">
+                                    <p class="category-label">Oscar® Winner</p>
+                                    <h5 class="card-title">Little Women</h5>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Stranger Things"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Sci-Fi Fans</p>
-                          <h5 class="card-title">Stranger Things</h5>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Inception">
+                                <div class="card-body">
+                                    <p class="category-label">For Sci-Fi Fans</p>
+                                    <h5 class="card-title">Inception</h5>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="The Crown"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For History Buffs</p>
-                          <h5 class="card-title">The Crown</h5>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="The Godfather">
+                                <div class="card-body">
+                                    <p class="category-label">For Crime Drama Lovers</p>
+                                    <h5 class="card-title">The Godfather</h5>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Breaking Bad"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Thriller Fans</p>
-                          <h5 class="card-title">Breaking Bad</h5>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Parasite">
+                                <div class="card-body">
+                                    <p class="category-label">Best Picture Winner</p>
+                                    <h5 class="card-title">Parasite</h5>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Another TV Show"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Comedy Lovers</p>
-                          <h5 class="card-title">Another TV Show</h5>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Another Movie">
+                                <div class="card-body">
+                                    <p class="category-label">For Action Fans</p>
+                                    <h5 class="card-title">Another Movie</h5>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Yet Another Show"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Mystery Fans</p>
-                          <h5 class="card-title">Yet Another Show</h5>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="Another Great Movie">
+                                <div class="card-body">
+                                    <p class="category-label">For Adventure Fans</p>
+                                    <h5 class="card-title">Another Great Movie</h5>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="A Great Show"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Drama Enthusiasts</p>
-                          <h5 class="card-title">A Great Show</h5>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <img src="https://via.placeholder.com/200x120" class="card-img-top" alt="A Classic Movie">
+                                <div class="card-body">
+                                    <p class="category-label">For Classic Movie Lovers</p>
+                                    <h5 class="card-title">A Classic Movie</h5>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <a
-                class="carousel-control-prev"
-                href="#tvCarousel"
-                role="button"
-                data-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#tvCarousel"
-                role="button"
-                data-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
-          </div>
-
-          <!-- Movies Section -->
-          <div class="media-section mt-4">
-            <h4 class="media-section-title">
-              Movies for You
-              <a href="#" class="text-secondary">MORE MOVIES ></a>
-            </h4>
-            <div
-              id="moviesCarousel"
-              class="carousel slide"
-              data-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="The Bob's Burgers Movie"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Comedy Fans</p>
-                          <h5 class="card-title">The Bob's Burgers Movie</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Little Women"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">Oscar® Winner</p>
-                          <h5 class="card-title">Little Women</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Inception"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Sci-Fi Fans</p>
-                          <h5 class="card-title">Inception</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="The Godfather"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Crime Drama Lovers</p>
-                          <h5 class="card-title">The Godfather</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Parasite"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">Best Picture Winner</p>
-                          <h5 class="card-title">Parasite</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Another Movie"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Action Fans</p>
-                          <h5 class="card-title">Another Movie</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="Another Great Movie"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Adventure Fans</p>
-                          <h5 class="card-title">Another Great Movie</h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card">
-                        <img
-                          src="https://via.placeholder.com/200x120"
-                          class="card-img-top"
-                          alt="A Classic Movie"
-                        />
-                        <div class="card-body">
-                          <p class="category-label">For Classic Movie Lovers</p>
-                          <h5 class="card-title">A Classic Movie</h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a
-                class="carousel-control-prev"
-                href="#moviesCarousel"
-                role="button"
-                data-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
+            <a class="carousel-control-prev" href="#moviesCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
-              </a>
-              <a
-                class="carousel-control-next"
-                href="#moviesCarousel"
-                role="button"
-                data-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
+            </a>
+            <a class="carousel-control-next" href="#moviesCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
+            </a>
         </div>
+    </div>
+</div>
 
-        <!--Showing the dropdown menu working-->
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-      </body>
-    </html>
-  </body>
+<!--Showing the dropdown menu working-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
