@@ -62,11 +62,11 @@ h1 {
 /* Custom styles for the container and cards */
 .media-section-title {
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
     padding: 10px 0;
 }
 .media-container {
-background-color: #1a1a1a;
+background-color: #e1e1e1;
 padding: 20px;
 padding-top: 40px;
 padding-left: 60px;
@@ -94,4 +94,9 @@ color: #aaaaaa;
 .text-secondary {
     padding-left: 10px;
     font-size: 20px;
+}
+.custom-img-size {
+    width: 130px;
+    height: 200px;
+    background-size: fill;
 }
