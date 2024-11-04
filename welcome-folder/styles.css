@@ -33,7 +33,7 @@ body{
 }
 
 .hero {
-    background-image: url("../images/soldier-cat.jpg");
+    background-image: url("../images/welcome-bgc2.png");
     background-size: cover;
     height: 80vh;
 }
@@ -176,31 +176,6 @@ body{
     text-align: center;
 }
 
-.card1 {
-
-    background-image: url("../images/emperor-cat.webp");
-    background-size: cover;
-    background-position: center;
-}
-.card2 {
-
-    background-image: url("../images/galaxy-cat.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.card3 {
-
-    background-image: url("../images/soldier-cat.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.card4 {
-
-    background-image: url("../images/super-cat.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
 .bulu-cards {
     height: 100vh;
 }
@@ -256,68 +231,3 @@ body{
     text-decoration: underline;
     text-decoration-color: white;
 }
-
-/* events */
-.event-bg {
-    background-image: url("../images/holy-cat.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative; /* Ensure the position is relative for any child positioning */
-    width: 100%;
-    height: 120vh;
-}
-
-.event-bg-gradient { /* How to overlay a gradiet on a solid color*/
-    background: linear-gradient(to bottom right, rgba(0, 20, 0, 0.5), rgba(80, 150, 100, 0.5));
-    position: absolute; /* Position it over the bg */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    width: 100%;
-    height: 100%;
-}
-
-.event-tab-link {
-    background-color: transparent;
-    position: relative;
-    display: inline-block;
-    color: white;
-    font-weight: 900;
-    border: none;
-    transition: background-color 0.3s, color 0.3s;
-    cursor: pointer;
-}
-
-.event-tab-link:hover {
-    opacity: 0.8;
-}
-
-.event-tab-link.active:after {
-    content: '';
-    position: absolute;
-    margin: 0 5px;
-    left: 0;
-    right: 0;
-    bottom: -10px;
-    height: 4px;
-    background-color: currentColor;
-}
-
-
-/* Footer */
-.footer a {
-    color: grey;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 300px;
-}
-.footer-section-title {
-    color: black !important;
-    font-weight: 900;
-    padding: 10px 0;
-}
-
-.event-tab-content h2,
-.event-tab-content p {
-  color: lightgrey;
-}
-
