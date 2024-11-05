@@ -1,5 +1,6 @@
 :root {
     --hulu-green: rgb(109, 228, 141);
+    --hulu-dark-green: rgb(68, 255, 137);
 }
 
 
@@ -81,10 +82,11 @@ body{
 .login-button {
     display: inline-block;
     padding: 10px 20px;
-    color: rgba(211, 211, 211);
+    color: rgba(255, 255, 255);
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
+    font-size: 33px;
 }
 
 .login-button:hover {
@@ -100,7 +102,7 @@ body{
 }
 
 .subtext {
-    color: white;
+    color: var(--hulu-dark-green);
     font-weight: 900;
     text-align: center;
 }
@@ -172,7 +174,7 @@ body{
 
 .bulu-tv {
     background-color: rgb(12, 15, 18);
-    height: 200vh;
+    height: 210vh;
     text-align: center;
 }
 
@@ -302,6 +304,26 @@ body{
     background-color: currentColor;
 }
 
+
+/* Cat Plans */
+#cat-plan-dropdown {
+    font-size: 24px;
+    text-align: center;
+    padding: 2% 60px;
+    border-radius: 20px;
+}
+
+.benefit-container {
+    color: white;
+}
+
+.benefit-container hr {
+    background-color: grey;
+}
+
+.benefit-container i {
+    font-size: 30px;
+}
 
 /* Footer */
 .footer a {
