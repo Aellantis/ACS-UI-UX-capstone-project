@@ -45,9 +45,9 @@ h4 {
 .list-group-item {
     color: rgb(52, 105, 226);
     font-weight: 600;
-}
-.list-group {
-    width: 500px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
 }
 
 .help-card {
