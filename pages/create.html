@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/create.css" />
+
+    <!-- Other -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg">
+      <div class="container title-container">
+        <div class="whitepsace" style="height: 10vh"></div>
+        <h1 class="title text-center">Bulu</h1>
+      </div>
+      <div class="container title-card-container">
+        <div class="title-card col-md-6 offset-md-3">
+          <div class="row card-items">
+            <div class="col-md-12">
+              <img
+                src="../images/bisney.png"
+                alt="bisney logo"
+                style="max-width: 80px"
+              />
+            </div>
+            <div class="col-md-12">
+              <h3 class="text-left mt-3">Create an account to continue</h3>
+            </div>
+            <div class="col-md-12">
+              <p id="p-message">
+                With a Bisney account, you can log in to Bulu and other services
+                across The Cat Bisney Family of Companies.
+              </p>
+              <p id="create-account-email">
+                Create your account using <strong> meowcats@gkittens.com</strong
+                ><a href="#" onclick="editEmail()">(edit)</a>
+              </p>
+            </div>
+            <div class="col-md-12">
+              <input type="text" placeholder="Password" />
+              <p id="p-minimum">
+                Use a minimum of 6 characters (case sensitive) with at least one
+                number or special character.
+              </p>
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Birthday" />
+              <input type="" placeholder="Type of Cat" />
+              <p>
+                <small
+                  >By clicking "Agree & Continue," you agree to our
+                  <a href="#">Privacy Policy</a>, and acknowledge you have read
+                  our <a href="#">Subscriber Agreement</a> and
+                  <a href="#">US State Privacy Right Notice</a>.</small
+                >
+              </p>
+              <a href="../pages/home.html">
+                <button id="agree-button">
+                  <small> Agree & Continue</small>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer" style="height: 10vh">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <div class="row">
+              <ul class="horizontal-list mt-4">
+                <li><a href="#" class="col-md-1">About</a></li>
+                <li><a href="#" class="col-md-1">Jobs</a></li>
+                <li><a href="#" class="col-md-1">Help</a></li>
+                <li><a href="#" class="col-md-1">About Ads</a></li>
+                <li><a href="#" class="col-md-1">Terms of Use</a></li>
+                <li><a href="#" class="col-md-1">Privacy Policy</a></li>
+                <li><a href="#" class="col-md-1">&copy; 2024 Bulu, LLC</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
