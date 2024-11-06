@@ -42,11 +42,26 @@ h4 {
     margin-top: 45px;
     font-size: 25px;
 }
+
 .list-group-item {
     color: rgb(52, 105, 226);
     font-weight: 600;
+    width: 330px;
 }
 
+#a {
+    color: rgb(52, 105, 226);
+    font-weight: 600;
+    width: 415px;
+
+}
+
+#b {
+    color: rgb(52, 105, 226);
+    font-weight: 600;
+    margin-left: 50px;
+    width: 400px;
+}
 .help-card {
     border: 1px solid #e0e0e0;
     border-radius: 3px;
