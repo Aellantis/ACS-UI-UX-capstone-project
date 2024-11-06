@@ -17,7 +17,7 @@
 
 .title-card {
     background-color: #ccd6de;
-    height: 550px;
+    height: 650px;
     border-radius: 20px;
 }
 .title-card input {
@@ -58,4 +58,11 @@
     justify-content: space-around;
     padding: 0;
     margin: 0;  
+}
+.create-account {
+    color: grey;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
