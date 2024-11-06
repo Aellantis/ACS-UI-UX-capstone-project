@@ -309,8 +309,12 @@ body{
 #cat-plan-dropdown {
     font-size: 24px;
     text-align: center;
-    padding: 2% 60px;
+    padding: 2px 60px;
     border-radius: 20px;
+    appearance: none;
+}
+#cat-plan-dropdown .dropdown-toggle::after {
+    margin-left: -5px;
 }
 
 .benefit-container {
@@ -325,6 +329,9 @@ body{
     font-size: 30px;
 }
 
+.benefit-container a {
+    margin-right: 0;
+}
 /* Footer */
 .footer a {
     color: grey;
