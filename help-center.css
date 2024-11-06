@@ -1,0 +1,148 @@
+.help-center-banner {
+    background:linear-gradient(to right, #002429, #005c68);
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.popular-articles, .all-topics {
+    margin-top: 2rem;
+}
+h1 {
+    padding: 1rem;
+    font-size: 45px;
+}
+.a-form-control {
+    padding:10px;
+    width: 800px;
+    z-index: 2;
+}
+.input-group{
+    justify-content: center;
+    align-items: center;
+}
+.input-group-text{
+    background: white;
+    width: 47px;
+    height: 47px;
+    border:none;
+    z-index: 1;
+}
+.nav-item {
+    font-size: 15px;
+    margin-right: 5px;
+}
+.bi.bi-search{
+    margin-left: 3px;
+}
+.navbar {
+    height: 60px
+}
+h4 {
+    margin-bottom: 35px;
+    margin-top: 45px;
+    font-size: 25px;
+}
+.list-group-item {
+    color: rgb(52, 105, 226);
+    font-weight: 600;
+}
+.list-group {
+    width: 500px;
+}
+
+.help-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    max-width: 300px;
+    margin:auto;
+}
+
+.help-card:hover {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.help-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    background-color: #e6f4ea;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.help-card h5 {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 900px; /* Set max width for the container */
+    margin-bottom: 50px;
+}
+.col {
+    margin-bottom: 25px;
+}
+.contact-section{
+    background: rgb(233, 233, 233);
+    padding: 40px;
+
+}
+.footer {
+    background-color: #222;
+    color:rgb(235, 235, 235);
+    padding: 25px 0;
+}
+
+.footer a {
+    color: #cdcdcd;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#bulu {
+    display: block;
+    position:absolute;
+    width:150px;
+    height:60px;
+    margin-left: 640px;
+}
+.text-container {
+    margin-top: 65px;
+    font-size: 12px;
+}
+
+.FAQ {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+    max-width: 1500px;
+    margin-left: 5px;
+}
+.FAQ h5{
+    text-align: left;
+    margin-top: 10px;
+}
+.FAQ p{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+#nyan-cat{
+    position:relative;
+    margin-right: 50px;
+    width: 320px;
+    height: 250px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
